@@ -67,7 +67,7 @@ private:
 
     Ui::Calculator *ui;
     State   m_state       = State::EnteringLeft;
-    QString m_input;                          // 当前正在输入的数字文本（显示区内容）
+    QString m_input;                          // 当前正在输入的数字文本
     double  m_leftOperand = 0.0;               // 第一个操作数（也可当作中间结果）
     QString m_operator;                        // 挂起的运算符，空串表示没有
     bool    m_freshInput  = true;              // true 表示下一个数字要“重新开始一个数”

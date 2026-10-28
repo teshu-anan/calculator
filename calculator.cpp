@@ -89,7 +89,7 @@ void Calculator::keyPressEvent(QKeyEvent *event)
         return;
     }
 
-    QWidget::keyPressEvent(event);     // 其余按键交给父类，避免影响系统快捷键
+    QWidget::keyPressEvent(event);
 }
 
 // =====================================================================
