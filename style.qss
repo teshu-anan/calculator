@@ -1,0 +1,85 @@
+/* ================= 窗口整体 ================= */
+QWidget#Calculator {
+    background-color: #ffffff;
+}
+
+/* ================= 上方算式栏（显示 "12 × 5 ="） ================= */
+QLabel#historyLabel {
+    color: #8e8e93;
+    font-size: 16px;
+    padding-right: 8px;
+}
+
+/* ================= 数字显示区 ================= */
+QLineEdit#displayEdit {
+    border: none;
+    background: transparent;
+    color: #1c1c1e;
+    font-size: 44px;
+    font-weight: 600;
+    padding: 0 8px;
+}
+
+/* ================= 普通按钮（数字键 / 小数点） ================= */
+QPushButton {
+    border: none;
+    border-radius: 14px;
+    background-color: #f2f2f7;
+    color: #1c1c1e;
+    font-size: 22px;
+}
+
+QPushButton:hover {
+    background-color: #e5e5ea;
+}
+
+QPushButton:pressed {
+    background-color: #cfcfd6;
+}
+
+/* ================= 功能键 C / ⌫ ================= */
+QPushButton#btnClear,
+QPushButton#btnBack {
+    background-color: #e8e8ed;
+    color: #3a3a3c;
+    font-size: 20px;
+}
+
+QPushButton#btnClear:hover,
+QPushButton#btnBack:hover {
+    background-color: #dcdce2;
+}
+
+/* ================= 运算符 + - × ÷ ================= */
+QPushButton#btnPlus,
+QPushButton#btnMinus,
+QPushButton#btnMultiply,
+QPushButton#btnDivide {
+    background-color: #fff3e0;
+    color: #ff9500;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+QPushButton#btnPlus:hover,
+QPushButton#btnMinus:hover,
+QPushButton#btnMultiply:hover,
+QPushButton#btnDivide:hover {
+    background-color: #ffe4bf;
+}
+
+/* ================= 等号 ================= */
+QPushButton#btnEquals {
+    background-color: #ff9500;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+QPushButton#btnEquals:hover {
+    background-color: #ffa726;
+}
+
+QPushButton#btnEquals:pressed {
+    background-color: #f57c00;
+}
